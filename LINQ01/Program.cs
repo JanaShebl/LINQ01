@@ -122,6 +122,16 @@
             //var result= Source.ProductList.OrderBy(p=>p.ProductName.Length).ThenBy(p=>p.)    مش عارفة أعملها
 
             #endregion
+
+            #region Q13
+
+            //var result = Source.ProductList.Where(p => p.ProductName[1] == 'i');
+            //foreach (var p in result)
+            //{
+            //    Console.WriteLine($"Product: {p.ProductName}");
+            //}
+
+            #endregion
         }
     }
 }
