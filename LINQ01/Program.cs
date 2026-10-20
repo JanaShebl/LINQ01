@@ -93,6 +93,19 @@
             //}
 
             #endregion
+
+            #region Q10
+
+            //var result = from c in Source.CustomerList
+            //             from o in c.Orders
+            //             where o.OrderDate > new DateTime(1997, 1, 1)
+            //             select new { c.CustomerID, o.OrderDate };
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Customer: {item.CustomerID} , Order Date: {item.OrderDate:d}");
+            //}
+
+            #endregion
         }
     }
 }
