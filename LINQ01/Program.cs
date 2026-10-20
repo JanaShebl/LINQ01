@@ -109,15 +109,19 @@
 
             #region Q11
 
-            var result = Source.ProductList.Select((p, i) => new { Index = i + 1, p.ProductName });
-            foreach (var item in result)
-            {
-                Console.WriteLine($"Index: {item.Index} , Product: {item.ProductName}");
-            }
+            //var result = Source.ProductList.Select((p, i) => new { Index = i + 1, p.ProductName });
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Index: {item.Index} , Product: {item.ProductName}");
+            //}
 
             #endregion
 
+            #region Q12
 
+            //var result= Source.ProductList.OrderBy(p=>p.ProductName.Length).ThenBy(p=>p.)    مش عارفة أعملها
+
+            #endregion
         }
     }
 }
