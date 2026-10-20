@@ -24,7 +24,15 @@
 
             #endregion
 
+            #region Q3
 
+            //var sotredProducts = Source.ProductList.OrderByDescending(p => p.UnitPrice);
+            //foreach (var p in sotredProducts)
+            //{
+            //    Console.WriteLine($"Product: {p.ProductName} , Price: {p.UnitPrice}");
+            //}
+
+            #endregion
         }
     }
 }
