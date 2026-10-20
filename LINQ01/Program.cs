@@ -106,6 +106,18 @@
             //}
 
             #endregion
+
+            #region Q11
+
+            var result = Source.ProductList.Select((p, i) => new { Index = i + 1, p.ProductName });
+            foreach (var item in result)
+            {
+                Console.WriteLine($"Index: {item.Index} , Product: {item.ProductName}");
+            }
+
+            #endregion
+
+
         }
     }
 }
