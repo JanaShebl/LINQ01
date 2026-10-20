@@ -84,7 +84,15 @@
 
             #endregion
 
+            #region Q9
 
+            //var result = Source.ProductList.Where(p=>p.Category=="Beverages").OrderByDescending(p => p.UnitsInStock);
+            //foreach (var p in result)
+            //{
+            //    Console.WriteLine($"Product: {p.ProductName} , Stock: {p.UnitsInStock}");
+            //}
+
+            #endregion
         }
     }
 }
