@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Q1
+
+            var allProducts = Source.ProductList.Where(p => p.Category =="Seafood");
+            foreach (var product in allProducts)
+            {
+                Console.WriteLine($"Product: {product.ProductName} , Price: {product.UnitPrice}");
+            }
+
+            #endregion
         }
     }
 }
